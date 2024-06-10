@@ -95,7 +95,8 @@ project/
 │       ├── __init__.py
 │       ├── user_serializer.py
 │       ├── model_serializer.py
-│       └── subscription_serializer.py
+│       └── subscription_serializer.pyfrom django.contrib.auth.models import AbstractUser, Group, Permission
+from django.db import models
 │
 ├── frontend/
 │   ├── public/
